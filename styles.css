@@ -3,13 +3,13 @@ body {
     background-color: turquoise;
     margin: 0;
 
-    position: relative; /* Set the parent container to relative to anchor the absolute positioning */
+    position: relative;
     .image {
-    position: absolute; /* Positions the image relative to its first positioned (non-static) ancestor */
-    top: -20px; /* Distance from the top */
-    right: 0px; /* Distance from the right */
-    width: 153px;
-    height: 93px;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 100px;
+    height: 60px;
     }
     
 }
