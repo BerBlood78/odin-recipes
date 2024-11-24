@@ -1,23 +1,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: turquoise;
-    margin: 0;
-
+    background-color: #f8f1e5;
+    margin: 0px 100px 0px 100px;
     position: relative;
-    .image {
+}
+
+.image {
     position: absolute;
     top: -20px;
     right: 0px;
     width: 100px;
     height: 60px;
-    }
-    
+    margin-right: -95px;
 }
 
 h1 {
     text-align: center;
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 .container {
@@ -48,6 +48,21 @@ h1 {
     border-right: 12px solid white;
     border-top: 7px solid white;
     box-shadow: 2px -2px 0px 2px orange;
+}
 
+button {
+    background-color: red;
+    display: inline;
+    font-size: 25px;
+}
+
+a:hover button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    margin: 5px;
 }
 
