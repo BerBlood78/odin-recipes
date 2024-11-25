@@ -73,12 +73,13 @@ a:hover button {
 
 .spiral-wire .loop {
     width: 32px;
-    height: 64px;
+    height: 32px;
     border: 3px solid black;
     border-radius: 50%;
     background-color: transparent;
-    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 50%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 50%);
     margin-right: 8px;
+}
 
 img {
     margin: 5px;
